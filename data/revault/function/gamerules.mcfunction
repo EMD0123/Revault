@@ -1,0 +1,3 @@
+tellraw @s [{"text":"Revault","color":"#d87f33"},{"text":" Gamerules:","color":"white"}]
+tellraw @s [{"text":"Vault Reset Time","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Click to Change"}]},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set Normal revault.time "}},{"text":" = ","color":"white"},{"score":{"name":"Normal","objective":"revault.time"},"color":"aqua"}]
+tellraw @s [{"text":"Ominous Vault Reset Time","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Click to Change"}]},"clickEvent":{"action":"suggest_command","value":"/scoreboard players set Ominous revault.time "}},{"text":" = ","color":"white"},{"score":{"name":"Ominous","objective":"revault.time"},"color":"aqua"}]

@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 45,
+    "supported_formats": [
+      45,
+      48
+    ],
+    "description": {
+      "text": "Restocking Vaults",
+      "color": "#d87f33"
+    }
+  }
+}
