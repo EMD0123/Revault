@@ -7,3 +7,5 @@ tag @s add revault.vault_timer
 execute store result score @s revault.time run time query gametime
 execute if block ~ ~ ~ minecraft:vault[ominous=false] run scoreboard players operation @s revault.time += Normal revault.time
 execute if block ~ ~ ~ minecraft:vault[ominous=true] run scoreboard players operation @s revault.time += Ominous revault.time
+execute if score Normal revault.time matches -1 if block ~ ~ ~ minecraft:vault[ominous=false] run kill @s
+execute if score Ominous revault.time matches -1 if block ~ ~ ~ minecraft:vault[ominous=true] run kill @s
