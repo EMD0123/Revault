@@ -1,4 +1,5 @@
 execute if block ~ ~ ~ minecraft:vault[vault_state=unlocking] run summon area_effect_cloud ~ ~ ~ {Duration:20,Tags:["revault.blocker"]}
+data modify entity @s data.Owner set from entity @p[advancements={revault:open=true}] UUID
 #scoreboard players set debug revault.time 1
 execute if score debug revault.time matches 1 run say vault
 execute if score debug revault.time matches 1 run particle lava
