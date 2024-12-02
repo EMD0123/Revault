@@ -1,1 +1,1 @@
-$particle minecraft:large_smoke ~ ~0.5 ~ 0 0 0 .01 5 force @p[nbt={UUID:$(Owner)}]
+$particle minecraft:smoke ~ ~0.5 ~ 0 0 0 .001 20 normal @p[nbt={UUID:$(Owner)}]
