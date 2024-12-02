@@ -3,7 +3,7 @@
     "pack_format": 45,
     "supported_formats": [
       45,
-      48
+      61
     ],
     "description": {
       "text": "Restocking Vaults",
