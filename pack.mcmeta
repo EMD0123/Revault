@@ -1,9 +1,11 @@
 {
   "pack": {
-    "pack_format": 80,
+    "min_format": 80,
+    "max_format": 88,
+    "pack_format": 88,
     "supported_formats": [
       80,
-      81
+      88
     ],
     "description": {
       "text": "Restocking Vaults",
